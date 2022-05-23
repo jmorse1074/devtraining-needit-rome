@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="update_synch=true" audit="true" extends="sys_metadata" label="UI Policy" max_length="40" name="sys_ui_policy" read_roles="ui_policy_admin" sizeclass="1964" text_index="true" type="collection">
+        <element label="Mandatory" max_length="40" name="x_58872_needit_mandatory" type="boolean"/>
+        <element label="Read-only" max_length="40" name="x_58872_needit_read_only" type="boolean"/>
+        <element label="Visible" max_length="40" name="x_58872_needit_visible" type="boolean"/>
+    </element>
+</database>
